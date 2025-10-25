@@ -4,6 +4,7 @@ Proyek ini dibuat untuk mata kuliah Pengolahan Citra Digital.
 Tujuannya adalah melakukan segmentasi terhadap pakaian berwarna merah dari sebuah citra digital menggunakan beberapa filter berbeda, yaitu Gaussian, Median, dan Bilateral Filter.
 
 Deskripsi Singkat:
+
 Segmentasi dilakukan dengan cara:
 
 Membaca citra input.
@@ -27,11 +28,13 @@ NumPy
 Matplotlib
 
 Cara Menjalankan Program:
+
 Pastikan sudah menginstall dependensi dengan perintah:
 
 pip install -r requirements.txt
 
 Jalankan file Python dengan perintah:
+
 python segmentasi_pakaian_merah.py
 
 Program akan menampilkan hasil segmentasi pakaian merah dengan tiga filter berbeda.
